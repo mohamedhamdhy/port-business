@@ -1,3 +1,5 @@
+import AboutSection from './about/aboutSection';
+import CaseStudiesSection from './case/caseStudiesSection';
 import Hero from './hero/page';
 import ResultsSection from './results/resultSection';
 import Services from './service/services';
@@ -6,12 +8,14 @@ import WorkingProcessSection from './working/workingProcessSection';
 
 const page = () => {
   return (
-    <div>
+    <div className='bg-[#0A0F2C]'>
       <Hero />
-      <Services />
       <ResultsSection />
-      <TestimonialsSection />
+      <Services />
       <WorkingProcessSection />
+      <CaseStudiesSection />
+      <TestimonialsSection />
+      <AboutSection />
     </div>
   );
 };

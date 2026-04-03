@@ -33,11 +33,7 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`w-full sticky top-0 z-50 transition-all duration-500 ${
-          scrolled
-            ? "bg-black/95 backdrop-blur-md shadow-[0_1px_0_rgba(255,255,255,0.06)]"
-            : "bg-black"
-        }`}
+        className={"bg-[#0A0F2C] w-full sticky top-0 z-50 "}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
           <div className="h-14 sm:h-16 lg:h-17.5 xl:h-20 flex items-center justify-between gap-4">
@@ -123,7 +119,7 @@ export default function Navbar() {
         />
 
         <div
-          className={`absolute top-14 sm:top-16 left-0 right-0 bg-[#0a0a0a] border-b border-white/8 transition-all duration-300 ease-out ${
+          className={`absolute top-14 sm:top-16 left-0 right-0 bg-[#0A0F2C] border-b border-white/8 transition-all duration-300 ease-out ${
             menuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-3"
           }`}
         >
