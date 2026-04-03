@@ -1,5 +1,6 @@
 import AboutSection from './about/aboutSection';
 import CaseStudiesSection from './case/caseStudiesSection';
+import ExperienceSection from './experience/experienceSection';
 import Hero from './hero/page';
 import ResultsSection from './results/resultSection';
 import Services from './service/services';
@@ -16,6 +17,7 @@ const page = () => {
       <CaseStudiesSection />
       <TestimonialsSection />
       <AboutSection />
+      <ExperienceSection />
     </div>
   );
 };
