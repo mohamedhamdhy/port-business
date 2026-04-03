@@ -2,6 +2,7 @@ import Hero from './hero/page';
 import ResultsSection from './results/resultSection';
 import Services from './service/services';
 import TestimonialsSection from './testimonials/testimonialSection';
+import WorkingProcessSection from './working/workingProcessSection';
 
 const page = () => {
   return (
@@ -10,6 +11,7 @@ const page = () => {
       <Services />
       <ResultsSection />
       <TestimonialsSection />
+      <WorkingProcessSection />
     </div>
   );
 };
