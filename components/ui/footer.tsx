@@ -73,7 +73,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-black border-t border-white/8">
+    <footer className="w-full bg-[#0A0F2C] border-t border-white/8">
       <div className="h-px w-full bg-linear-to-r from-transparent via-primary/40 to-transparent" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-10">
